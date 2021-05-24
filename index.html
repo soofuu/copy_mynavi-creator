@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模写_ポートフォリオ作成で注意すべき著作権と守秘義務の基礎知識</title>
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!--webフォント追加-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="./reset.css">
+
+    <!--スタイルシート-->
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <!--FontAwesomeプラグイン-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+       <div>
+           <div class="header-fixed">
+               <div class="header-title">
+                   <h2 class="header-titleText">Web・ゲーム・IT業界専門の転職エージェント</h2>
+                   <a href=""><div class="header-titleIMG"><img src="./img/logo_site.png" alt="マイナビクリエイター"></div></a>
+               </div>
+               <div class="no-display">
+                   <ul class=header-lists>
+                       <li class="header-list">
+                           <a href="" class="header-listText"><i class="fa fa-angle-down fa-lg "></i>サービス紹介</a>
+                           <ul class="header-hiddenLists header-firstHiddenLists">
+                               <li class="header-hiddenList"><a href="">サービスの仕組み</a></li>
+                               <li class="header-hiddenList"><a href="">サービスのご利用方法</a></li>
+                               <li class="header-hiddenList"><a href="">3つの強みと利用するメリット</a></li>
+                               <li class="header-hiddenList"><a href="">キャリアアドバイザー紹介</a></li>
+                               <li class="header-hiddenList"><a href="">ポートフォリオ作成サービス-MATCHBOX</a></li>
+                               <li class="header-hiddenList"><a href="">取引先企業紹介</a></li>
+                               <li class="header-hiddenList"><a href="">マイナビクリエイターのスローガン</a></li>
+                           </ul>
+                       </li>
+                       <li class="header-list">
+                           <a href="" class="header-listText">求人情報</a>
+                       </li>
+                       <li class="header-list">
+                           <a href="" class="header-listText"><i class="fa fa-angle-down fa-lg "></i>イベント情報</a>
+                           <ul class="header-hiddenLists">
+                               <li class="header-hiddenList"><a href="">セミナー</a></li>
+                               <li class="header-hiddenList"><a href="">説明会</a></li>
+                               <li class="header-hiddenList"><a href="">相談会</a></li>
+                           </ul>
+                       </li>
+                       <li class="header-list ">
+                           <a href="" class="header_nowList header-listText"><i class="fa fa-angle-down fa-lg "></i>転職ノウハウ</a>
+                           <ul class="header-hiddenLists">
+                               <li class="header-hiddenList"><a href="">面接対策</a></li>
+                               <li class="header-hiddenList"><a href="">ポートフォリオ</a></li>
+                           </ul>
+                       </li>
+                       <li class="header-list">
+                           <a href="" class="header-listText"><i class="fa fa-angle-down fa-lg "></i>ブログ</a>
+                           <ul class="header-hiddenLists">
+                               <li class="header-hiddenList"><a href="">Webディレクター</a></li>
+                               <li class="header-hiddenList"><a href="">Webデザイナー</a></li>
+                               <li class="header-hiddenList"><a href="">マークアップエンジニア</a></li>
+                               <li class="header-hiddenList"><a href="">ゲームプランナー</a></li>
+                               <li class="header-hiddenList"><a href="">ゲームディレクター</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </div>
+               <div class="aplication res-aplication">
+                   <h1 class="free-apliction"><a href="">無料<br class="LineBreak">申込</a></h1>
+               </div>
+                
+                <!--レスポンシブデザイン バーガーボタン-->
+               <div class="burger-btn">
+                   <div class="flex-flame">
+                       <div class="burger"><i class="fa fa-navicon fa-2x "></i></div>
+                       <div class="close no-display"><i class="fa fa-remove fa-2x "></i> </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </header>
+    <!--レスポンシブ時のバーガーリスト-->
+    <div class="burger-menue">
+        <ul class="burger-menue-lists">
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-home fa-lg "></i> 
+                      <span>ホーム</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-user fa-lg "></i> 
+                        <span>サービス紹介</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-search fa-lg "></i>  
+                        <span>求人情報</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-graduation-cap fa-lg "></i> 
+                        <span>イベント情報</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="" style="background-color:rgb(220,220,230)">
+                    <div class="burger-left-text">
+                        <i class="fa fa-lightbulb-o fa-lg "></i> 
+                        <span>転職ノウハウ</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-pencil fa-lg "></i> 
+                        <span>ブログ</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <i class="fa fa-film fa-lg "></i>  
+                        <span>転職体験談</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <span>お問い合わせ</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <span>よくあるご質問</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <span>アクセス</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+            <li class="burger-menue-list">
+                <a href="">
+                    <div class="burger-left-text">
+                        <span>サイトマップ</span>
+                    </div>
+                    <i class="fa fa-angle-right fa-2x "></i> 
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="scroll-top">
+        <div><i class="fa fa-angle-up fa-3x "></i> </div>
+    </div>
+    <div class="page-pass">
+        <div class="pass-flame">
+            <div class="pass-text"><a class="link home-pass pass-link" href="">ホーム</a>  >  <a class="link pass-link" href="">転職ノウハウ</a>   >  <a class="link pass-link" href="">ポートフォリオ</a>  >  <a class="link pass-link" href="">ポートフォリオ作成で注意すべき著作県と守秘義務の基礎知識</a>
+            </div>
+        </div>
+    </div>
+    <!--main-->
+    <main>
+        <!--メインコンテンツ-->
+        <div class="main-content">
+            <h1 class="pageTitle">ポートフォリオ作成で注意すべき著作権と守秘義務の基礎知識</h1>
+            <!--導入-->
+            <section class="wrapper" id="Introduction">
+                <div class="SNS-btn">
+                    <ul class="SNS-lists">
+                        <li class="twitter">
+                            <i class="fa fa-twitter "></i>
+                            <a href="">ツイート</a>
+                        </li>
+                        <li class="good-btn">
+                            <i class="fa fa-thumbs-up "></i>
+                            <a href="">いいね！</a>
+                        </li>
+                        <li class="bookmark">
+                            <i class="fa fa-bookmark "></i> 
+                            <a href="">ブックマーク</a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./img/img_pc_copyright-and-confidentiality-of-portfolio_01.jpg" alt="">
+                <div class="introduce-text">
+                    <p>今までの自分の実績を載せるポートフォリオ。これはクリエイターの転職活動にとって、何よりも大切な自己PRのアイテムです。しかし、前職での実績をそのまま載せるのは、著作権や守秘義務に違反してしまうのではないかと心配に思う人もいるかもしれません。</p><br>
+                    <p>確かに、ポートフォリオは一般に公開されない作品集としても、各作品には、著作権や守秘義務が付帯しています。後々のトラブルを引き起こさないようにするためにも、ポートフォリオを作成する際には、事前に著作権や守秘義務についてきちんと理解しておくことが大切です。</p><br>
+                    <p>そこで今回は、この著作権と守秘義務についての基礎知識を学んでいきたいと思います。転職を成功させるための大事なノウハウとして確認しておきましょう。</p>
+                </div>
+            </section>
+            
+            <!--目次-->
+            <section class="wrapper" id="tableOfContent">
+                <div class="tableOfContent">
+                    <h2 class="tableOfContent-title">目次</h2>
+                    <ul class="sectionLists">
+                        <li class="sectionList">
+                            <h3><a href="#FirstSection">著作権と守秘義務の基礎知識を知る</a></h3>
+                            <ul class="sectionLists-child">
+                                <li><span class="bar"></span><a href="#First-first-section">著作権とは</a></li>
+                                <li><span class="bar"></span><a href="#First-second-section">守秘義務とは</a></li>
+                            </ul>
+                        </li>
+                        <li class="sectionList">
+                            <h3><a href="#SecondSection">前職で作った作品は誰のもの？</a></h3>
+                            <ul class="sectionLists-child">
+                                <li >
+                                    <span class="bar"></span><a href="#Second-first-section">前職の作品の著作権といったものは、どの程度反映されるもの<br class="LineBreak">なのか。</a>
+                                </li>
+                                <li><span class="bar"></span><a href="#Second-second-section">Webポートフォリオ（ポートフォリオサイト）は管理を万全に</a></li>
+                                <li><span class="bar"></span><a href="#Second-third-section">引用を知る - 使用の許可取りについて</a></li>
+                                <li><span class="bar"></span><a href="#Second-forth-section">掲載する際の配慮について</a></li>
+                            </ul>
+                        </li>
+                        <li class="sectionList">
+                            <h3><a href="#ThirdSection">権利を重視する姿勢は印象としても大切</a></h3>
+                        </li>
+                        <li class="sectionList">
+                            <h3><a href="#ForthSection">まとめ - キャリアアドバイザーからの一言コメント</a></h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!--1 著作権と守秘義務の基礎知識を知る-->
+            <section class="wrapper" id="FirstSection">
+                <h2 class="section-title">著作権と守秘義務の基礎知識を知る</h2>
+                <p>そもそも著作権と守秘義務とは、どのようなものなのでしょうか。</p>
+                
+                <!--1-1 著作権とは-->
+                <div class="child-section" id="First-first-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i>  著作権とは</h3>
+                    <div class="Description">
+                        <p>著作権とは、著作者が自身の著作物を、独占的に利用できる法的権利です。つまりこの権利によって、許可無く他人に利用されることがありません。知的財産権の1つであり、言語や音楽、建築などといった表現形式や著作物に対する権利となります。これは、形のあるものだけに限らず、振り付けやプログラムといった形の無いものでも著作権によって守られます。</p>
+                        <div class="Dictionary">
+                            <h3 class="Dictionary-title">知的財産権とは</h3>
+                            <p class="Dictionary-Description">知的財産権とは、人間の知的創造活動によって生み出される、表現、アイディア、技術など実体のないものを保護するために、その考案者に与えられる権利。「無体財産権｣ とも呼ばれる。日本では著作権法や特許法、知的財産基本法などの法律によって保護されている。</p>
+                            <a href="" class="link Reference">IT用語辞典eWords参照（2015.11.1時点）<i class="fa fa-external-link "></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--1-2 守秘義務とは-->
+                <div class="child-section" id="First-second-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i>  守秘義務とは</h3>
+                    <div class="Description">
+                        <p>守秘義務とは、一定の職業に就いていた社員に対して、職務上知った秘密を守るべき法律上の義務のことを言います。作品を完成する過程の中で、決して外部には漏らしてはいけない機密情報（例えば、クライアント情報や個人情報）があると思いますが、ポートフォリオに作品を掲載することにおいて言えば、その作品自体が前職の企業の機密事項にあたるのかどうかといった点がポイントとなるでしょう。</p><br>
+                        <p>機密事項は、秘密情報を公開したり、第三者に渡したりしないことを求めるNDA（秘密保持契約・機密保持契約）を通して、取引や交渉時に決められます。Webプロデューサーや<a href="" class="EmphasisLink">Webディレクター</a>、SE、営業の方であれば、新規クライアントと取引を行う時や新プロジェクトごとに取り交わしていたご経験があると思います。</p>
+                        <div class="Dictionary">
+                        <h3 class="Dictionary-title">機密情報（きみつじょうほう）とは</h3>
+                        <p class="Dictionary-Description">国家や企業などにとって、重要な秘密。ライバルや外部に知られると致命的となる情報。</p>
+                        <a href="" class="link Reference">はなてキーワード参照（2015.11.1時点）<i class="fa fa-external-link "></i> </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--2 前職で作った作品は誰のもの？-->
+            <section class="wrapper" id="SecondSection">
+                <h2 class="section-title">前職で作った作品は誰のもの？</h2>
+
+                <!--2-1 前職の作品の著作権といったものは、どの程度反映されるものなのか。-->
+                <div class="child-section" id="Second-first-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i> <p>前職の作品の著作権といったものは、どの程度反映されるものなのか。</p></h3>
+                    <div class="Description">
+                       <p>守秘義務に関しては、締結した契約内容から、その機密事項は明確です。では、作品の著作権に関してはどの程度反映されるものなのでしょうか。</p><br>
+                       <p>著作権は、基本的に企業に帰属します。つまり、自分が作成した作品も、最終的にはその企業の権利のもとにあるということです。そのため、今までの作品をポートフォリオに掲載する際には、前提として「作品の著作権は、作った当時に勤めていた企業にある」ということを決して忘れてはいけません。</p><br>
+                        <p>ただ、上記を踏まえた上で、作品自体が一人歩きをするようなことがないのであれば、ある程度は許容される、ということも事実です。ポートフォリオに前職の作品を載せたからといって、即、機密漏洩（ろうえい）になるということではありません。今まで自分がどのような作品をどのような過程で制作したのかを伝える程度であれば、まず問題はないと考えてよいでしょう。ただし、外部に漏れるようなことがないように、しっかりと管理や配慮をする必要があります。</p><br>
+                        <p>つまり、「まずは、交わした守秘義務契約に違反しない」ことは大前提として、自身が携わった作品に関しては、管理を徹底した上でポートフォリオに反映することには構わないということです。</p>
+                        <div class="Dictionary">
+                            <h3 class="Dictionary-title">機密漏洩（きみつろうえい）とは</h3>
+                            <p class="Dictionary-Description">重要な秘密事項が外部に漏れ出ること。</p>
+                            <a href="" class="link Reference">Weblio辞書参照（2015.11.1時点）<i class="fa fa-external-link "></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--2-2 Webポートフォリオ（ポートフォリオサイト）は管理を万全に-->
+                <div class="child-section" id="Second-second-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i> Webポートフォリオ（ポートフォリオサイト）は管理を万全に</h3>
+                    <div class="Description">
+                        <img class="bookLock" src="./img/img_pc_copyright-and-confidentiality-of-portfolio_02.jpg" alt="ノートと鍵">
+                        <p>管理の徹底という視点から見ていきましょう。まず、紙のポートフォリオであれば、管理は個人の責任の範囲で行うことができるでしょう。しかし、Web上に掲載してしまうと、そのサイトを誰が見るかが分からないこともあり、管理が途端に難しくなってしまいます。</p><br>
+                        <p>Webサイトに掲載している画像やデータを悪用されて、前職の企業に迷惑をかけてしまうことにならないようにするためにも、Webサイトの画像やデータを第三者が保存することができないように、ベーシック認証などのアクセス制御をかける対策は行うべきです。</p><br>
+                        <div class="Dictionary copyright-quotation">
+                            <h3 class="Dictionary-title">Basic認証とは</h3>
+                            <p class="Dictionary-Description">Basic認証とは、Webサイトの閲覧に使うプロトコル「HTTP」が備える、最も基本的なユーザ認証方式。アクセスの制限されたWebページにアクセスしようとすると、Webブラウザでユーザ名とパスワードの入力を求め、サーバでアクセスを許可しているユーザに一致すると、ページを閲覧することができる。</p>
+                            <a href="" class="link Reference">IT用語辞典eWords参照（2015.11.1時点）<i class="fa fa-external-link "></i> </a>
+                        </div>
+                        <p>ただ、ベーシック認証に関しては、あくまで基本的で簡易的な認証方式であることを認識しておきましょう。全てのWebブラウザやWebサーバも対応していることから広く使用されていますが、ユーザ名、パスワードが、暗号化やハッシュ化がされていないプレーンなテキストで送受信されるため、盗聴や改ざんが簡単に行われてしまうという欠点を持ちます。作品の内容を、よりセキュアに管理するためには、ベーシック認証よりもダイジェスト認証（ユーザ名とパスワードをハッシュ化して送る）という方式を取ることも一つ考えられるでしょう。</p>
+                    </div>
+                </div>
+                
+                <!--2-3 引用を知る - 使用の許可取りについて-->
+                <div class="child-section" id="Second-third-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i>引用を知る - 使用の許可取りについて</h3>
+                    <div class="Description">
+                        <p>基本的に、一般に公開されている作品を掲載する場合は、その作品の出典元を明確に記載していれば、作品を掲載する際に許可を取る必要はありません。論文やレポートを書く際に、「引用の法則」がありますが、この法則に則って書く限り、著作権に抵触するということはありません。その作品の掲載に必然性があり、出典元をきちんと記載することで、引用の体裁となり得ます。もしどうしても不安な場合は、前職の企業に掲載の旨を伝えるというのも1つの方法です。特にWeb上に掲載をしたい場合は、必ず企業に許可をとるようにしましょう。企業の同意があればもちろん問題はありません。</p>
+                        <div class="Dictionary">
+                            <h3 class="Dictionary-title">著作権法第32条 - 引用</h3>
+                            <p class="Dictionary-Description">公表された著作物は自由に引用して利用することが出来る。ただし、それは公正な慣行に合致するものであり、かつ、報道・批評・研究その他の引用の目的上正当な範囲内で行われるものでなければならないとされる。</p>
+                            <a href="" class="link Reference">Wikipedia参照（2015.11.1時点）<i class="fa fa-external-link "></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--2-4 掲載する際の配慮について-->
+                <div class="child-section" id="Second-forth-section">
+                    <h3 class="child-section-title"><i class="fa fa-lightbulb-o fa-lg "></i>掲載する際の配慮について</h3>
+                    <div class="Description">
+                        <p>繰り返しになりますが、自分が作成した作品は、自分の責任で制作されたかもしれませんが、権利は企業に属しています。また、自分一人で作ったものではない場合は、共同制作をした人たちの存在もあります。ポートフォリオに掲載する場合は、どの企業での作品かという出典元を明記すると同時に、共同制作の場合は自分が主に担当した箇所も明記する配慮が必要です。</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!--3権利を重視する姿勢は印象としても大切-->
+            <section class="wrapper" id="ThirdSection">
+                <h2 class="section-title">権利を重視する姿勢は印象としても大切</h2>
+                <div class="Description">
+                   <img class="pcImg" src="./img/img_pc_copyright-and-confidentiality-of-portfolio_03.jpg" alt="">
+                   <p>繰り返しになりますが、自分が作成した作品は、自分の責任で制作されたかもしれませんが、権利は企業に属しています。また、自分一人で作ったものではない場合は、共同制作をした人たちの存在もあります。ポートフォリオに掲載する場合は、どの企業での作品かという出典元を明記すると同時に、共同制作の場合は自分が主に担当した箇所も明記する配慮が必要です。</p><br>
+                    <p>一方、権利などをあまり重視していないポートフォリオが多い中、きちんと出典元を記載し、権利に対して配慮している<a href="" class="EmphasisLink">Webディレクター</a>、Webデザイナー、ゲームクリエイターは採用担当者から評価されます。実際にその応募企業で働くことになった時も、そのような制度や仕組みをきちんと守れるクリエイターだと思ってもらえるからです。これは、クリエイターである以前に社会人としての評価です。</p><br>
+                    <p>実際に私たちマイナビクリエイターが取引をさせていただいている企業でも、そのような姿勢を評価する採用担当者が多いことは確かです。たかがポートフォリオと思わず、自分のデザイナーとしての姿勢をアピールするといった点でも、著作権や守秘義務に配慮することを心がけましょう。</p>
+                </div>
+            </section>
+            
+            <!--4まとめ - キャリアアドバイザーからの一言コメント-->
+            <section class="wrapper" id="ForthSection">
+                <h2 class="section-title">まとめ - キャリアアドバイザーからの一言コメント</h2>
+                <div class="Description">
+                    <img class="pcImg" src="./img/img-carrier_adviser_takahashi_W690.jpg" alt="">
+                    <p>ポートフォリオに作品を載せるのは、ある程度許容されていることであり、作品を掲載したことで著作権を訴えられるという可能性はほとんどありません。しかし、だからといって、著作権や守秘義務をいい加減にしてよいというわけではありません。</p><br>
+                    <p>このことを決して念頭から離さず、ポートフォリオに掲載する場合は著作権や守秘義務にきちんと配慮していることを示すことを心がけるようにしましょう。そうした姿勢を見せることで応募先の企業によい印象を持ってもらえる可能性が高まります。</p>
+                </div>
+                
+            </section>
+            
+            <!--5 MATCHBOX-->
+            <section class="wrapper" id="FifthSection">
+                <!--MATCHBOXの紹介-->
+                <div class="Matchbox">
+                    <h2 class="Matchbox-title">ポートフォリオ作成サービス 『MATCHBOX』のご紹介</h2>
+                    <div class="Matchbox-item">
+                        <div class="Matchbox-img">
+                            <img src="./img/img-introduction-of-matchbox_00.jpg" alt="MATCH BOXのイメージ写真" class="MatchboxIMG">
+                        </div>
+                        <div class="Matchbox-Description">
+                            <p>マイナビクリエイターがクリエイター集団「PARTY」と共同開発したポートフォリオ作成サービス『<a class="EmphasisLink" href="">MATCHBOX <i class="fa fa-external-link "></i></a>（マッチボックス）』。</p><br>
+                            <p>どなたでも簡単にポートフォリオを作成でき、紙・Web両方に対応可能です。ご利用は無料ですので、ぜひお気軽にご登録ください。</p>
+                        </div>
+                    </div>
+                    <ul class="MatchboxLinks">
+                        <li>
+                            <a href="" class="MatchboxLink">
+                                <div class="flex">
+                                    <i class="fa fa-caret-right "></i>
+                                    <span class="MatchboxLink-text">MATCHBOXの詳細についてはこちらをご覧ください。</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                           <a href="" class="MatchboxLink">
+                               <div class="flex">
+                                   <i class="fa fa-caret-right "></i>
+                                   <span class="MatchboxLink-text">MATCHBOXは、マイナビクリエイターへお申し込み後、ご利用いただけます。</span>
+                               </div>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--簡単１分申し込み-->
+                <a href="" class="simple-application aplication">
+                    <div class="one-minute"><h1>簡単<br>１分</h1></div>
+                    <div class="simple-application-titles">
+                        <div class="simple-application-subtitle"><h2>Web職・ゲーム業界専門の転職支援サービス</h2></div>
+                        <div class="simple-application-title"><h1>マイナビクリエイターに申し込む(無料)</h1></div>
+                    </div>
+                </a>
+                <!--ポートフォリオ/転職ノウハウ-->
+                <div class="ForthSection-links">
+                    <ul>
+                        <li>
+                            <a href="" class="ForthSection-link">
+                                <!--PC時アイコン-->
+                                <i class="fa fa-caret-left "></i>
+                                <!--レスポンシブデザイン時アイコン-->
+                                <i class="fa fa-angle-left fa-lg "></i>
+                                <span class="ForthSection-link-text">ポートフォリオ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="ForthSection-link">
+                                <!--PC時アイコン-->
+                                <i class="fa fa-caret-left "></i>
+                                <!--レスポンシブデザイン時アイコン-->
+                                <i class="fa fa-angle-left fa-lg "></i>
+                                <span class="ForthSection-link-text">転職ノウハウ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--サービスに関するお問い合わせ-->
+                <div class="contact">
+                    <div class="contact-details">
+                        <h1>サービスに関するお問い合わせ</h1>
+                        <div class="tell">
+                            <div class="tell-icon">
+                                <i class="fa fa-phone "></i>
+                            </div>
+                            <div>
+                                <h2 class=tellNumber>0120-410-470</h2>
+                                <h3 class="businessHours">マイナビクリエイター事務局 受付時間 9:15～17:45</h3>
+                            </div>
+                        </div>
+                        <p>サービスに関してご不明な点がありましたら、マイナビクリエイター事務局までご連絡ください。</p>
+                    </div>
+                </div>
+                <!--Facebookページ-->
+                <div class="Facebook-page">
+                    <div class="FacebookDetails">
+                        <h3>Facebookページ - マイナビクリエイター編集部</h3>
+                        <p>Web・ゲームクリエイターにとって、少し得した気分になるティップス（情報）を配信しています。</p>
+                        <div class="FacebookIMG">
+                            <div class="mynaviCreator-icon">
+                                <a href=""><img src="./img/51398947_2063135517108058_5496906583751262208_n.jpg" alt="マイナビクリエイター編集部アイコン"></a>
+                                <div class="Facebook-title">
+                                    <a href=""><h2 class="mynaviCreator-title">マイナビクリエイター編集部</h2></a>
+                                    <p>〇〇件の「いいね！」</p>
+                                </div>
+                            </div>
+                            <div class="good-share">
+                                <a class="good">
+                                    <i class="fa fa-facebook-official "></i><span>このページに「いいね！」</span>
+                                </a>
+                                <a href="" class="share">
+                                    <i class="fa fa-mail-forward "></i><span>シェア</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        
+        <!--サイドバー-->
+        <div class="side-content">
+            <section class="SideFirst">
+                <a href="" class="SideFirst-btn aplication">
+                    <div>
+                        <p class="res-aplicationtext">Web職・ゲーム業界の転職サービス</p>
+                        <h2>マイナビクリエイターに</h2>
+                        <h1>申し込む(無料)</h1>
+                    </div>
+                </a>
+                <a href="" class="SideFirst-btn SideCareerChange">
+                    <div>
+                        <h1>転職体験談</h1>
+                    </div>
+                </a>
+                <a href="" class="SideFirst-btn SideMatchbox">
+                    <div>
+                        <h2>ポートフォリオ作成サービス</h2>
+                        <img src="./img/MATCHBOX_logo.svg" alt="MATCH BOXアイコン">
+                    </div>
+                </a>
+            </section>
+            <section class="SideSecond">
+                <div class="SideSecond-title">
+                    <h2>転職ノウハウ</h2>
+                </div>
+                <ul class="SideSecond-Content">
+                    <li>
+                        <a href="" class="SideSecond-item SideSecond-bigitem">
+                               <span class="SideSecond-item-text">面接対策</span>
+                            <i class="fa fa-chevron-right "></i> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item SideSecond-bigitem nowPage">
+                            <span class="SideSecond-item-text">ポートフォリオ</span>
+                            <i class="fa fa-chevron-right "></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオとは - Portfolioの意味と3つの業界での使い方</span>
+                           </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオの基本 - 最低限押さえておくべき職種ごとの作成ポイント</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">Webデザイナーの転職でも紙のポートフォリオは必須のアイテム</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">クリエイターの転職必須ツール、ポートフォリオの作り方</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">A4かA3か？ポートフォリオに最適なサイズは？</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオの目次が持つ役割とその書き方</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオの序章を飾るプロフィールの書き方</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオに最適なページ数・作品数は？</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオをフル活用した面接突破テクニック</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">Webディレクターの転職を成功に導くポートフォリオの作り方</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">イケてるWebデザインで作られたポートフォリオサイト20選まとめ</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">便利すぎる！ポートフォリオ作成サービス8選まとめ</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="SideSecond-item nowPage resetBackground-color">
+                            <div class="SideSecond-smallItem">
+                                <i class="fa fa-caret-right "></i>
+                                <span class="SideSecond-item-text">ポートフォリオ作成で注意すべき著作権と守秘義務の基礎知識</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="SideThird">
+                <!--レスポンシブデザイン お問い合わせ-->
+                <div class="res-contact">
+                        <div class="res-contact-details">
+                            <h1>サービスに関するお問い合わせ</h1>
+                            <div class="res-tell">
+                               <a class="res-tell-icons">
+                                   <div class="res-tell-icon">
+                                       <i class="fa fa-phone "></i>
+                                   </div>
+                                   <div>
+                                        <p>お電話でのお問い合わせ</p>
+                                        <h2 class=res-tellNumber>0120-410-470</h2>
+                                   </div>
+                               </a>
+                                <p class="res-businessHours">マイナビクリエイター事務局<br>受付時間 9:15～17:45</p>
+                            </div>
+                            <p>サービスに関してご不明な点がありましたら、マイナビクリエイター事務局までご連絡ください。</p>
+                        </div>
+                </div>
+                <!---->
+                <div class="SideThird-content">
+                    <h3 class="SideThird-title">おすすめ記事コンテンツ</h3>
+                    <ul class="thirdLinks">
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">Webディレクター</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">Webデザイナー</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">マークアップエンジニア</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">ゲームプランナー</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">ポートフォリオ</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">Webディレクターの転職</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">Webディレクターに必要な22のスキル</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">転職必須ツール - ポートフォリオの作り方</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">履歴書サンプル - 無料ダウンロード</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">職務経歴書サンプル - 無料ダウンロード</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="SideThird-content">
+                    <h3 class="SideThird-title">初めての方へ</h3>
+                    <ul class="thirdLinks">
+                        <li>
+                            <a href="" class="thirdLink">
+                                <div class="flex">
+                                   <i class="fa fa-caret-right"></i>
+                                    <span class="underline">マイナビクリエイターで受けられる8つの<br class="no-LineBreak">サポート</span>
+                               </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="SideThird-content">
+                    <h3 class="SideThird-title">企業の皆さまへ</h3>
+                    <ul class="thirdLinks">
+                        <li>
+                            <a href="" class="thirdLink"><i class="fa fa-caret-right "></i><span class="underline">クリエイターの採用をお考えの企業さまへ</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="SideThird-content social-media">
+                    <h3 class="SideThird-title">ソーシャルメディア</h3>
+                    <ul class="third-SNSLinks">
+                        <li>
+                            <a href="" class="third-SNSLink sideFacebook">
+                                <i class="fa fa-facebook-f fa-2x SNSicon"></i> 
+                                <span class="SNSicon-text">Facebookページ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="third-SNSLink sideTwitter">
+                                <i class="fa fa-twitter fa-2x SNSicon"></i>
+                                <span class="SNSicon-text">Twitteerアカウント</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="third-SNSLink sideYoutube">
+                                <i class="fa fa-youtube-play fa-2x SNSicon"></i> 
+                                <span class="SNSicon-text">YouTubeチャンネル</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="third-SNSLink sideRss">
+                                <i class="fa fa-rss fa-2x SNSicon"></i> 
+                                <span class="SNSicon-text">RSSフィード</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <span class="border"></span>
+        </div>
+    </main>
+    <footer>
+        <!--SNSー-->
+        <div class="footer-SNS">
+            <ul class="SNS-lists">
+                <li class="twitter">
+                    <i class="fa fa-twitter "></i>
+                    <a href="">ツイート</a>
+                </li>
+                <li class="good-btn">
+                    <i class="fa fa-thumbs-up "></i>
+                    <a href="">いいね！</a>
+                </li>
+                <li class="bookmark">
+                    <i class="fa fa-bookmark "></i> 
+                    <a href="">ブックマーク</a>
+                </li>
+            </ul>
+        </div>
+        <!--レスポンシブ ホーム＆トップへ戻る-->
+        <div class="home-top">
+            <a href="" class="home">
+                <p><i class="fa fa-home fa-lg "></i> <span>ホーム</span></p>
+            </a>
+            <a class="top">
+                <p><span>トップへ戻る</span><i class="fa fa-angle-up fa-lg "></i> </p>
+            </a>
+        </div>
+        <!--フッターリンク-->
+        <div class="footerLink">
+            <!--リンク-->
+            <div class="footer-Links">
+                <ul class="footer-LinkLists">
+                    <li><a href="" class="link">お問い合わせ</a></li>
+                    <li class="res-hide-li"><a href="" class="link">個人情報の取り扱いについて</a></li>
+                    <li><a href="" class="link">よくあるご質問</a></li>
+                    <li class="normal-hide-li"><a href="" class="link">アクセス</a></li>
+                </ul>
+                <ul class="footer-LinkLists">
+                    <li class="res-hide-li"><a href="" class="link">アクセス</a></li>
+                    <li><a href="" class="link">サイトマップ</a></li>
+                    <li class="normal-hide-li"><a href="" class="link">個人情報の取り扱いについて</a></li>
+                    <li><a href="" class="link">会社概要</a></li>
+                </ul>
+            </div>
+            <!--レスポンシブ PC版-->
+            <a href="" class="pc-version">
+                <p>PC版を見る</p>
+            </a>
+            <!--マイナビ&Pマーク-->
+            <div class="mynabi-pmark">
+                <a href="" class="footer-mynabi">
+                    <img src="./img/logo_mynavi.png" alt="">
+                </a>
+                <a href="" class="footer-pmark">
+                    <img src="./img/logo_pmark.png" alt="">
+                </a>
+            </div>
+            <!--Copyright © -->
+            <p class="Copyright">Copyright © Mynavi Works Corporation All Rights Reserved.</p>
+        </div>
+        <p class="copylink">模写参考サイト：<a href="https://mynavi-creator.jp/knowhow/article/copyright-and-confidentiality-of-portfolio" class="link">https://mynavi-creator.jp/knowhow/article/copyright-and-confidentiality-of-portfolio</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./jquery.js"></script>
+</body>
+</html>
