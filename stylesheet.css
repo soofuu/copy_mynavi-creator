@@ -1085,7 +1085,6 @@ footer{
     }
     .header-title{
         margin:0;
-        margin-right:auto;
         padding:0;
     }
     .header-titleIMG{
@@ -1106,6 +1105,7 @@ footer{
         height: 3rem;
         background-color:#F95813;
         margin:auto 0;
+        margin-left: auto;
     }
     /*バーガーメニューボタン*/
     .burger-btn{
