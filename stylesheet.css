@@ -242,6 +242,7 @@ header{
 }
 .burger-menue-list{
     display: block;
+    max-height:8.4vh;
     background-color: white;
     position: relative;
     right: -100%;
